@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Sarasvati",
+        "description": "Dea indù della conoscenza, della musica e delle arti, consorte di Brahma.",
+        "race": "Nymph",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Sarasvati"
+    },
+    {
+        "name": "Kikuri-Hime",
+        "description": "Dea scintoista che mediò tra Izanagi e Izanami.",
+        "race": "Nymph",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Kikuri-Hime"
+    },
+    {
+        "name": "Kushinada-Hime",
+        "description": "Dea giapponese dell'agricoltura, salvata da Susano-o.",
+        "race": "Kunitsu",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Kushinada-Hime"
+    },
+    {
+        "name": "Parvati",
+        "description": "Dea indù dell'amore e della devozione, consorte gentile di Shiva.",
+        "race": "Megami",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Parvati"
+    },
+    {
+        "name": "Lakshmi",
+        "description": "Dea indù della ricchezza, della fortuna e della prosperità.",
+        "race": "Megami",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Lakshmi"
+    },
+    {
+        "name": "Fortuna",
+        "description": "Dea romana della fortuna e del destino.",
+        "race": "Megami",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Fortuna"
+    },
+    {
+        "name": "Hecate",
+        "description": "Dea greca della magia, della stregoneria e dei crocevia.",
+        "race": "Tyrant",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Hecate"
+    },
+    {
+        "name": "Baphomet",
+        "description": "Un idolo a testa di capra associato ai cavalieri templari e all'occultismo.",
+        "race": "Vile",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Baphomet"
+    },
+    {
+        "name": "Pazuzu",
+        "description": "Demone assiro del vento sud-occidentale, portatore di carestia e locuste.",
+        "race": "Vile",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Pazuzu"
+    },
+    {
+        "name": "Abraxas",
+        "description": "Una divinità gnostica con la testa di gallo e gambe di serpente.",
+        "race": "Vile",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Abraxas"
+    },
+    {
+        "name": "Tao Tie",
+        "description": "Una delle quattro bestie malvagie della mitologia cinese, rappresenta l'avidità.",
+        "race": "Vile",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Tao_Tie"
+    },
+    {
+        "name": "Mishaguji",
+        "description": "Un antico dio della fertilità giapponese, venerato a Suwa.",
+        "race": "Vile",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Mishaguji"
+    },
+    {
+        "name": "Slime",
+        "description": "Un mostro amorfo basilare, nato da rifiuti tossici o magia fallita.",
+        "race": "Foul",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Slime"
+    },
+    {
+        "name": "Black Ooze",
+        "description": "Una variante più potente dello Slime, altamente tossica.",
+        "race": "Foul",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Black_Ooze"
+    },
+    {
+        "name": "Blob",
+        "description": "Una massa gelatinosa informe che consuma tutto ciò che tocca.",
+        "race": "Foul",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Blob"
+    },
+    {
+        "name": "Legion",
+        "description": "Un demone collettivo composto da molte anime tormentate.",
+        "race": "Foul",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Legion"
+    },
+    {
+        "name": "Ongyo-Ki",
+        "description": "Il capo dei quattro Oni controllati da Fujiwara no Chikata, maestro della furtività.",
+        "race": "Brute",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Ongyo-Ki"
+    },
+    {
+        "name": "Sui-Ki",
+        "description": "Uno dei quattro Oni, rappresenta l'elemento acqua.",
+        "race": "Brute",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Sui-Ki"
+    },
+    {
+        "name": "Kin-Ki",
+        "description": "Uno dei quattro Oni, rappresenta l'elemento oro/metallo, ha un corpo impenetrabile.",
+        "race": "Brute",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Kin-Ki"
+    },
+    {
+        "name": "Fuu-Ki",
+        "description": "Uno dei quattro Oni, rappresenta l'elemento vento.",
+        "race": "Brute",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Fuu-Ki"
+    }
+]

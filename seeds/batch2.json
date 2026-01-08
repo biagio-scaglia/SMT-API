@@ -1,0 +1,177 @@
+[
+    {
+        "name": "Lucifer",
+        "description": "Il re dei demoni, l'angelo caduto che si ribellò a Dio.",
+        "race": "Tiranno",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/8/87/Lucifer_SMTV.png"
+    },
+    {
+        "name": "Satan",
+        "description": "L'accusatore e giudice divino, spesso serve come strumento dell'ira di Dio.",
+        "race": "Avatar",
+        "alignment": "Dark-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/a/a2/Satan_SMT2.png"
+    },
+    {
+        "name": "Mastema",
+        "description": "Un angelo che perseguita il male con zelo fanatico, spesso con metodi discutibili.",
+        "race": "Araldo",
+        "alignment": "Light-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/5/5f/Mastema_SJ.png"
+    },
+    {
+        "name": "Lilith",
+        "description": "La prima moglie di Adamo, divenuta madre dei demoni.",
+        "race": "Notturno",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/8/85/Lilith_SMTV.png"
+    },
+    {
+        "name": "Rangda",
+        "description": "La regina delle streghe nel folklore balinese, eterna nemica di Barong.",
+        "race": "Femme",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/2/25/Rangda_SMTV.png"
+    },
+    {
+        "name": "Barong",
+        "description": "Il re degli spiriti nel folklore balinese, forza del bene contro Rangda.",
+        "race": "Avatar",
+        "alignment": "Light-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/a/a2/Barong_SMTV.png"
+    },
+    {
+        "name": "Surt",
+        "description": "Il gigante di fuoco della mitologia norrena che brucerà il mondo al Ragnarok.",
+        "race": "Tiranno",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/7/77/Surt_SMTV.png"
+    },
+    {
+        "name": "Yoshitsune",
+        "description": "Un leggendario eroe samurai giapponese, famoso per la sua abilità con la spada.",
+        "race": "Eroe",
+        "alignment": "Light-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/7/77/Yoshitsune_SMTV.png"
+    },
+    {
+        "name": "Masakado",
+        "description": "Lo spirito guardiano di Tokyo, un samurai divinizzato.",
+        "race": "Furia",
+        "alignment": "Light-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/0/06/Taira_no_Masakado_SMTIV.png"
+    },
+    {
+        "name": "Idun",
+        "description": "La dea norrena dell'eterna giovinezza, custode delle mele d'oro.",
+        "race": "Megami",
+        "alignment": "Light-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/0/07/Idun_SMTV.png"
+    },
+    {
+        "name": "Norn",
+        "description": "Le tre sorelle del destino nella mitologia norrena: Urd, Verdandi e Skuld.",
+        "race": "Megami",
+        "alignment": "Light-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/2/21/Norn_SMTV.png"
+    },
+    {
+        "name": "Arahabaki",
+        "description": "Un'antica divinità giapponese risalente al periodo Jomon.",
+        "race": "Kunitsu",
+        "alignment": "Neutral-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/5/5f/Arahabaki_SMTV.png"
+    },
+    {
+        "name": "Dionysus",
+        "description": "Il dio greco del vino, della festa e della follia.",
+        "race": "Divinità",
+        "alignment": "Light-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/6/6f/Dionysus_SMTV.png"
+    },
+    {
+        "name": "Demeter",
+        "description": "La dea greca del raccolto, dell'agricoltura e della fertilità.",
+        "race": "Megami",
+        "alignment": "Light-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/a/a2/Demeter_SMTV.png"
+    },
+    {
+        "name": "Zeus",
+        "description": "Il re degli dei dell'Olimpo greco, signore del cielo e del fulmine.",
+        "race": "Divinità",
+        "alignment": "Light-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/9/90/Zeus_SMTV.png"
+    },
+    {
+        "name": "Nuwa",
+        "description": "La dea creatrice della mitologia cinese, metà donna e metà serpente.",
+        "race": "Signora",
+        "alignment": "Dark-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/3/30/Nuwa_SMTV.png"
+    },
+    {
+        "name": "Fionn mac Cumhaill",
+        "description": "Leggendario cacciatore-guerriero della mitologia irlandese.",
+        "race": "Genma",
+        "alignment": "Light-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/e/e7/Fionn_mac_Cumhaill_SMTV.png"
+    },
+    {
+        "name": "Siegfried",
+        "description": "L'eroe uccisore di draghi della saga dei Nibelunghi.",
+        "race": "Eroe",
+        "alignment": "Light-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/9/94/Siegfried_SMTV.png"
+    },
+    {
+        "name": "Hell Biker",
+        "description": "Uno spirito motociclista, spesso associato ai Bosozoku giapponesi.",
+        "race": "Maledetto",
+        "alignment": "Dark-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/2/29/Hell_Biker.png"
+    },
+    {
+        "name": "Daisoujou",
+        "description": "Un monaco buddista mummificato che ha raggiunto l'illuminazione eterna.",
+        "race": "Maledetto",
+        "alignment": "Dark-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/b/b3/Daisoujou_SMT3_HD.png"
+    },
+    {
+        "name": "Matador",
+        "description": "Un demone scheletrico vestito da torero, famoso per la sua velocità.",
+        "race": "Maledetto",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/4/4b/Matador_SMT3_HD.png"
+    },
+    {
+        "name": "Trumpeter",
+        "description": "Uno degli angeli dell'apocalisse che suona la tromba del giudizio.",
+        "race": "Maledetto",
+        "alignment": "Neutral-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/7/7e/Trumpeter_SMT3_HD.png"
+    },
+    {
+        "name": "Mother Harlot",
+        "description": "La prostituta di Babilonia cavalcando la bestia a sette teste.",
+        "race": "Maledetto",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/e/ef/Mother_Harlot_SMT3_HD.png"
+    },
+    {
+        "name": "Pale Rider",
+        "description": "Il cavaliere dell'apocalisse che rappresenta la morte e la pestilenza.",
+        "race": "Maledetto",
+        "alignment": "Dark-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/e/e3/Pale_Rider_SMT3_HD.png"
+    },
+    {
+        "name": "White Rider",
+        "description": "Il cavaliere dell'apocalisse che rappresenta la conquista.",
+        "race": "Maledetto",
+        "alignment": "Dark-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/5/52/White_Rider_SMT3_HD.png"
+    }
+]

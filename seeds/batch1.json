@@ -1,0 +1,177 @@
+[
+    {
+        "name": "Jack Frost",
+        "description": "Uno spirito dell'inverno e della neve. È la mascotte della serie ed è noto per il suo grido 'Hee-ho!'.",
+        "race": "Fata",
+        "alignment": "Neutral-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/5/53/Jack_Frost_SMTV.png"
+    },
+    {
+        "name": "Pixie",
+        "description": "Una piccola fata del folklore britannico. Ama fare scherzi ma può essere una fedele compagna.",
+        "race": "Fata",
+        "alignment": "Neutral-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/0/06/Pixie_SMTV.png"
+    },
+    {
+        "name": "Cú Chulainn",
+        "description": "Eroe della mitologia irlandese, noto come il 'Mastino del fabbro'.",
+        "race": "Genma",
+        "alignment": "Light-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/d/d3/Cu_Chulainn_SMTV.png"
+    },
+    {
+        "name": "Cerberus",
+        "description": "Il cane a tre teste che custodisce le porte dell'Ade nella mitologia greca.",
+        "race": "Bestia",
+        "alignment": "Neutral-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/c/c5/Cerberus_SMTV.png"
+    },
+    {
+        "name": "Thor",
+        "description": "Il dio del tuono nella mitologia norrena, brandisce il martello Mjolnir.",
+        "race": "Kishin",
+        "alignment": "Light-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/8/87/Thor_SMTV.png"
+    },
+    {
+        "name": "Loki",
+        "description": "Dio dell'inganno nella mitologia norrena, capace di cambiare forma.",
+        "race": "Tiranno",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/5/55/Loki_SMTV.png"
+    },
+    {
+        "name": "Odin",
+        "description": "Il padre degli dei nella mitologia norrena, dio della saggezza e della guerra.",
+        "race": "Divinità",
+        "alignment": "Light-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/2/29/Odin_SMTV.png"
+    },
+    {
+        "name": "Angel",
+        "description": "Un messaggero di Dio, il grado più basso nella gerarchia angelica.",
+        "race": "Angelo",
+        "alignment": "Light-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/f/f6/Angel_SMTV.png"
+    },
+    {
+        "name": "Metatron",
+        "description": "Il più potente degli angeli, noto come la 'Voce di Dio'.",
+        "race": "Araldo",
+        "alignment": "Light-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/5/54/Metatron_SMTV.png"
+    },
+    {
+        "name": "Beelzebub",
+        "description": "Il signore delle mosche, una figura di spicco tra i demoni.",
+        "race": "Tiranno",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/0/0c/Beelzebub_SMTV.png"
+    },
+    {
+        "name": "Alice",
+        "description": "Una misteriosa ragazza fantasma con poteri magici immensi.",
+        "race": "Non-morto",
+        "alignment": "Dark-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/7/75/Alice_SMTV.png"
+    },
+    {
+        "name": "Mara",
+        "description": "Un demone che personifica il desiderio e la tentazione nel buddismo.",
+        "race": "Tiranno",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/6/6b/Mara_SMTV.png"
+    },
+    {
+        "name": "Jack-o'-Lantern",
+        "description": "Uno spirito con la testa di zucca, noto anche come Pyro Jack.",
+        "race": "Fata",
+        "alignment": "Neutral-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/d/d4/Pyro_Jack_SMTV.png"
+    },
+    {
+        "name": "King Frost",
+        "description": "Il re dei Jack Frost, un gigante di neve che comanda l'inverno.",
+        "race": "Tiranno",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/e/e0/King_Frost_SMTV.png"
+    },
+    {
+        "name": "Black Frost",
+        "description": "Un Jack Frost che ha abbracciato il lato oscuro per ottenere più potere.",
+        "race": "Jaki",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/3/36/Black_Frost_SMTV.png"
+    },
+    {
+        "name": "Mothman",
+        "description": "Una misteriosa creatura avvistata in West Virginia, presagio di sventura.",
+        "race": "Bestia",
+        "alignment": "Neutral-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/5/55/Mothman_SMTV.png"
+    },
+    {
+        "name": "Nekomata",
+        "description": "Un gatto a due code del folklore giapponese con poteri magici.",
+        "race": "Bestia",
+        "alignment": "Neutral-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/e/ec/Nekomata_SMTV.png"
+    },
+    {
+        "name": "Lilim",
+        "description": "Figlie di Lilith, demoni femminili che visitano gli uomini nei sogni.",
+        "race": "Notturno",
+        "alignment": "Neutral-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/8/87/Lilim_SMTV.png"
+    },
+    {
+        "name": "Decarabia",
+        "description": "Un demone a forma di stella marina pentagonale.",
+        "race": "Decaduto",
+        "alignment": "Dark-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/2/23/Decarabia_SMTV.png"
+    },
+    {
+        "name": "Forneus",
+        "description": "Un marchese dell'inferno che appare come un mostro marino o una razza.",
+        "race": "Decaduto",
+        "alignment": "Dark-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/e/e8/Forneus_SMTV.png"
+    },
+    {
+        "name": "Girimehkala",
+        "description": "Un enorme elefante con un occhio solo, cavalcatura di Mara.",
+        "race": "Jaki",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/4/4c/Girimehkala_SMTV.png"
+    },
+    {
+        "name": "Seth",
+        "description": "Dio egizio del caos, delle tempeste e del deserto.",
+        "race": "Drago",
+        "alignment": "Dark-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/9/91/Seth_SMTV.png"
+    },
+    {
+        "name": "Shiva",
+        "description": "La divinità indù della distruzione e della rigenerazione.",
+        "race": "Fury",
+        "alignment": "Light-Chaos",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/8/82/Shiva_SMTV.png"
+    },
+    {
+        "name": "Vishnu",
+        "description": "La divinità indù pervasiva, il preservatore dell'universo.",
+        "race": "Divinità",
+        "alignment": "Light-Law",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/b/b8/Vishnu_SMTV.png"
+    },
+    {
+        "name": "Scathach",
+        "description": "La leggendaria guerriera scozzese che addestrò Cú Chulainn.",
+        "race": "Megami",
+        "alignment": "Light-Neutral",
+        "img": "https://static.wikia.nocookie.net/megamitensei/images/2/22/Scathach_SMTV.png"
+    }
+]

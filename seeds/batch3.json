@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Michael",
+        "description": "Uno dei quattro arcangeli maggiori, capo delle schiere celesti.",
+        "race": "Arcangelo",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Michael"
+    },
+    {
+        "name": "Gabriel",
+        "description": "Uno dei quattro arcangeli, messaggero divino della rivelazione.",
+        "race": "Arcangelo",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Gabriel"
+    },
+    {
+        "name": "Raphael",
+        "description": "Uno dei quattro arcangeli, guaritore divino e protettore dei viaggiatori.",
+        "race": "Arcangelo",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Raphael"
+    },
+    {
+        "name": "Uriel",
+        "description": "Uno dei quattro arcangeli, l'angelo del fuoco e del pentimento.",
+        "race": "Arcangelo",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Uriel"
+    },
+    {
+        "name": "Seraph",
+        "description": "Il più alto coro angelico, esseri di pura luce che ardono di amore divino.",
+        "race": "Angelo",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Seraph"
+    },
+    {
+        "name": "Samael",
+        "description": "L'angelo della morte e veleno di Dio, spesso associato al serpente dell'Eden.",
+        "race": "Decaduto",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Samael"
+    },
+    {
+        "name": "Abaddon",
+        "description": "L'angelo dell'abisso e della distruzione, re delle locuste dell'Apocalisse.",
+        "race": "Tiranno",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Abaddon"
+    },
+    {
+        "name": "Sraosha",
+        "description": "Divinità zoroastriana dell'udito e dell'obbedienza, messaggero di Ahura Mazda.",
+        "race": "Araldo",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Sraosha"
+    },
+    {
+        "name": "Alilat",
+        "description": "Antica dea araba pre-islamica, considerata consorte di Allah.",
+        "race": "Signora",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Alilat"
+    },
+    {
+        "name": "Asherah",
+        "description": "Dea madre semitica, spesso venerata come consorte di El o Yahweh.",
+        "race": "Signora",
+        "alignment": "Chaos",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Asherah"
+    },
+    {
+        "name": "Ishtar",
+        "description": "Dea mesopotamica dell'amore, della guerra e della fertilità.",
+        "race": "Signora",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Ishtar"
+    },
+    {
+        "name": "Black Rider",
+        "description": "Il cavaliere dell'apocalisse che porta la carestia, impugnando una bilancia.",
+        "race": "Maledetto",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Black_Rider"
+    },
+    {
+        "name": "Red Rider",
+        "description": "Il cavaliere dell'apocalisse che rappresenta la guerra e toglie la pace dalla terra.",
+        "race": "Maledetto",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Red_Rider"
+    },
+    {
+        "name": "Anubis",
+        "description": "Dio egizio dei morti con testa di sciacallo, presiede alla pesatura del cuore.",
+        "race": "Avatar",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Anubis"
+    },
+    {
+        "name": "Thoth",
+        "description": "Dio egizio della saggezza, della scrittura e della magia, con testa di ibis.",
+        "race": "Divinità",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Thoth"
+    },
+    {
+        "name": "Ganesha",
+        "description": "Dio indù della saggezza e rimuovitore di ostacoli, con testa di elefante.",
+        "race": "Yoma",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Ganesha"
+    },
+    {
+        "name": "Hanuman",
+        "description": "Dio scimmia indù, devoto servitore di Rama e simbolo di forza e lealtà.",
+        "race": "Genma",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Hanuman"
+    },
+    {
+        "name": "Garuda",
+        "description": "Il re degli uccelli nella mitologia indù, cavalcatura di Vishnu.",
+        "race": "Avian",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Garuda"
+    },
+    {
+        "name": "Yatagarasu",
+        "description": "Il corvo a tre zampe della mitologia giapponese, guida dell'imperatore Jimmu.",
+        "race": "Avian",
+        "alignment": "Law",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Yatagarasu"
+    },
+    {
+        "name": "Titania",
+        "description": "Regina delle fate, consorte di Oberon, dal Sogno di una notte di mezza estate.",
+        "race": "Fata",
+        "alignment": "Neutral",
+        "image_source_url": "https://megamitensei.fandom.com/wiki/Titania"
+    }
+]
