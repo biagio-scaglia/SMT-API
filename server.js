@@ -155,8 +155,9 @@ fastify.post('/demons', { schema: demonSchema }, async (request, reply) => {
 // Avvio Server
 const start = async () => {
     try {
-        await fastify.listen({ port: 3000, host: '0.0.0.0' });
-        console.log('Server SMT API sicuro e attivo su http://localhost:3000');
+        const PORT = process.env.PORT || 3000;
+        await fastify.listen({ port: PORT, host: '0.0.0.0' });
+        console.log(`Server SMT API sicuro e attivo su http://0.0.0.0:${PORT}`);
     } catch (err) {
         fastify.log.error(err);
         process.exit(1);
