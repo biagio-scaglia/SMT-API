@@ -29,9 +29,24 @@ Il server ascolterà su `http://localhost:3000`.
 
 ## API Endpoints
 
-### `GET /demons`
+### `GET /api/v1/demons`
 
-Restituisce la lista completa dei demoni.
+Restituisce la lista dei demoni. Supporta versioning, filtri, ordinamento e paginazione.
+
+**Query Parameters:**
+
+*   **Filtri**: `?filter=campo:valore`
+    *   Esempio: `?filter=race:Fata`
+    *   Campi supportati: `id`, `name`, `race`, `alignment`
+*   **Ordinamento**: `$sort=campo_direzione`
+    *   Esempio: `$sort=name_asc` (A-Z), `$sort=id_desc` (decrescente)
+    *   Campi supportati: `id`, `name`, `race`, `alignment`, `imageUrl`
+*   **Paginazione**:
+    *   `$page` (default: 1): Numero della pagina
+    *   `$pageSize` (default: 10): Risultati per pagina
+
+**Esempio Richiesta:**
+`GET /api/v1/demons?filter=alignment:Neutral&$sort=name_asc&$page=1&$pageSize=5`
 
 **Risposta:**
 
@@ -49,7 +64,7 @@ Restituisce la lista completa dei demoni.
 ]
 ```
 
-### `POST /demons`
+### `POST /api/v1/demons`
 
 Crea un nuovo demone. Richiede un body JSON valido.
 
@@ -59,7 +74,9 @@ Crea un nuovo demone. Richiede un body JSON valido.
 {
   "name": "Nome Demone",
   "race": "Razza",
-  "alignment": "Neutral"
+  "alignment": "Neutral",
+  "description": "Opzionale...",
+  "imageUrl": "http://..."
 }
 ```
 

@@ -100,28 +100,83 @@ fastify.get('/', async (request, reply) => {
     return {
         message: 'Benvenuti nella SMT API',
         endpoints: {
-            list: 'GET /demons',
-            create: 'POST /demons'
-        }
+            list: 'GET /api/v1/demons',
+            create: 'POST /api/v1/demons'
+        },
+        documentation: 'Consulta il README per i dettagli su filtri, ordinamento e paginazione.'
     };
 });
 
-// GET /demons
-fastify.get('/demons', async (request, reply) => {
+// GET /api/v1/demons
+fastify.get('/api/v1/demons', async (request, reply) => {
+    const { filter, $sort, $page = 1, $pageSize = 10 } = request.query;
+
+    let sql = "SELECT * FROM demons";
+    const params = [];
+    const whereClauses = [];
+
+    // 1. Filtering (?filter=field:value)
+    if (filter) {
+        // Supporta formato semplice field:value
+        const parts = filter.split(':');
+        if (parts.length === 2) {
+            const [key, value] = parts;
+            // Whitelist colonne per sicurezza
+            const allowedFilters = ['id', 'name', 'race', 'alignment'];
+            if (allowedFilters.includes(key)) {
+                whereClauses.push(`${key} = ?`);
+                params.push(value);
+            }
+        }
+    }
+
+    if (whereClauses.length > 0) {
+        sql += " WHERE " + whereClauses.join(' AND ');
+    }
+
+    // 2. Sorting ($sort=field_dir)
+    if ($sort) {
+        // Esempio: name_asc, id_desc
+        const match = $sort.match(/^([a-zA-Z0-9]+)_(asc|desc)$/i);
+        if (match) {
+            const [_, col, dir] = match;
+            const allowedSorts = ['id', 'name', 'race', 'alignment', 'imageUrl'];
+            if (allowedSorts.includes(col)) {
+                sql += ` ORDER BY ${col} ${dir.toUpperCase()}`;
+            }
+        }
+    } else {
+        sql += " ORDER BY id ASC"; // Default
+    }
+
+    // 3. Pagination ($page=2, $pageSize=10)
+    const limit = parseInt($pageSize);
+    const offset = (parseInt($page) - 1) * limit;
+
+    // Validazione base numeri
+    const safeLimit = isNaN(limit) || limit < 1 ? 10 : limit;
+    const safeOffset = isNaN(offset) || offset < 0 ? 0 : offset;
+
+    sql += " LIMIT ? OFFSET ?";
+    params.push(safeLimit, safeOffset);
+
     return new Promise((resolve, reject) => {
-        db.all("SELECT * FROM demons ORDER BY id", [], (err, rows) => {
+        db.all(sql, params, (err, rows) => {
             if (err) {
                 request.log.error(err);
                 reply.status(500).send({ error: 'Internal Server Error' });
                 return reject(err);
             }
+
+            // Opzionale: potremmo ritornare anche metadata (totalCount), 
+            // ma per ora manteniamo l'array semplice come da richiesta base
             resolve(rows);
         });
     });
 });
 
-// POST /demons (Protetta da validazione)
-fastify.post('/demons', { schema: demonSchema }, async (request, reply) => {
+// POST /api/v1/demons (Protetta da validazione)
+fastify.post('/api/v1/demons', { schema: demonSchema }, async (request, reply) => {
     const { name, description, race, alignment, imageUrl } = request.body;
 
     return new Promise((resolve, reject) => {
